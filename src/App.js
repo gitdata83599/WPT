@@ -1,25 +1,36 @@
-import './App.css';
-// import Cars from './components/cars'
-// import Person from './components/person'
-// import Mobile from './components/mobile'
-import Persons1 from './components/persons1'
- import Persons2 from './components/Persons2'
- import Persons3 from './components/Persons3';
- import Persons4 from './components/Persons4'
-
-
+import Car from './components/car'
+import Cars from './components/cars'
+import Person from './components/person'
+import Persons from './components/persons'
 
 function App() {
-  return (
-    <div>
-      
-      <Persons1/>
-      <Persons2/>
-      <Persons3/>
-      <Persons4/>
+  const person = {
+    firstName: 'steve',
+    lastName: 'jobs',
+    personEmail: 'steve@apple.com',
+    personLatestAge: 58,
+    presentAddress: 'USA',
+  }
 
+  const car = {
+    carModel: 'X5',
+    carCompany: 'BMW',
+    carPrice: 45,
+  }
+
+  return (
+    <div className='container'>
+      {/* <Persons /> */}
+      {/* <Cars /> */}
+      <Person
+        age={person.personLatestAge}
+        email={person.personEmail}
+        address={person.presentAddress}
+        personName={person.firstName + ' ' + person.lastName}
+      />
+      <Car car={car} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

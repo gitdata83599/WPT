@@ -1,32 +1,32 @@
 [
     {
-      "name": "person1",
-      "age": 10,
+      "personName": "person1",
+      "personAge": 10,
       "address": "pune",
       "email": "person1@test.com"
     },
     {
-      "name": "person2",
-      "age": 11,
+      "personName": "person2",
+      "personAge": 11,
       "address": "mumbai",
       "email": "person2@test.com"
     },
     {
-      "name": "person3",
-      "age": 12,
+      "personName": "person3",
+      "personAge": 12,
       "address": "karad",
       "email": "person3@test.com"
     },
     {
-      "name": "person4",
-      "age": 20,
+      "personName": "person4",
+      "personAge": 20,
       "address": "nashik",
       "email": "person4@test.com"
     },
     {
-      "name": "person5",
-      "age": 30,
+      "personName": "person5",
+      "personAge": 30,
       "address": "satara",
       "email": "person5@test.com"
     }
-]
+  ]

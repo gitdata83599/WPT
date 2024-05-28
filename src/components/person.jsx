@@ -1,19 +1,13 @@
-function Person() {
-    // variables
-    const personName = 'steve jobs'
-    const personAddress = 'USA'
-    const personAge = 58
-    const personCanVote = true
-  
-    return (
-      <div>
-        <h2>Person</h2>
-        <div>Name: {personName}</div>
-        <div>Address: {personAddress}</div>
-        <div>Age: {personAge}</div>
-        <div>Person Can Vote: {personCanVote ? 'Yes' : 'No'}</div>
-      </div>
-    )
-  }
-  
-  export default Person
+function Person({ personName, email, age, address }) {
+  return (
+    <div>
+      <div>Name: {personName}</div>
+      <div>Age: {age}</div>
+      <div>Address: {address}</div>
+      <div>Email: {email}</div>
+      <hr />
+    </div>
+  )
+}
+
+export default Person
