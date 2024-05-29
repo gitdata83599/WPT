@@ -1,9 +1,13 @@
+import Navbar from "../components/navbar"
+
 function Bookings(){
-    return (
-        <div>
-          <h2 className='page-header'>Bookings</h2>
+    return(
+        <div >
+       {/* <Navbar/> */}
+      <h2 className="page-container"></h2>
 
         </div>
     )
+
 }
-export default Bookings
+export default  Bookings

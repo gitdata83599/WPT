@@ -1,9 +1,13 @@
 function Users(){
-    return (
+    return(
+
         <div>
-          <h2 className='page-header'>Users</h2>
+            {/* <Navbar/> */}
+        <h2 className="page-header"></h2>
+
 
         </div>
     )
+
 }
 export default Users
